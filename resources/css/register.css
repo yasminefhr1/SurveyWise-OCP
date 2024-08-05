@@ -1,0 +1,50 @@
+/* Register.module.css */
+.chatContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.chatMessage {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.chatMessage.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.typingText {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.messageTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inputWrapper {
+    width: 100%;
+}

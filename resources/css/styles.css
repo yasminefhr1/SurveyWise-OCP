@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f0f2f5;
+}
+.bg-cover {
+    background-size: cover;
+    background-position: center;
+}
+.bg-opacity-90 {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.form-container h1 {
+    color: #333;
+}
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 0.25rem;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.btn-blue {
+    background-color: #007bff;
+}
+.btn-blue:hover {
+    background-color: #0056b3;
+}
+.btn-green {
+    background-color: #28a745;
+}
+.btn-green:hover {
+    background-color: #218838;
+}
+.btn-red {
+    background-color: #dc3545;
+}
+.btn-red:hover {
+    background-color: #c82333;
+}
+.btn-add-option {
+    margin-top: 0.5rem;
+}
